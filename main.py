@@ -10,4 +10,4 @@ for i in sys.argv[1:]:
     list.append(df)
 
 frame = pd.concat(list)
-frame.to_csv("output.csv")
+frame.to_csv()
